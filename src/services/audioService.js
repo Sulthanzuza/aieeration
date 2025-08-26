@@ -1,6 +1,6 @@
 class AudioService {
   constructor() {
-    this.baseUrl = 'http://localhost:3001/api/audio';
+    this.baseUrl = 'https://aieeration.onrender.com/api/audio';
   }
 
   async analyzeAudio(audioFile) {

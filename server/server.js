@@ -42,7 +42,7 @@ app.listen(PORT, () => {
   
 
   if (!process.env.GEMINI_API_KEY) {
-    console.warn('⚠️  Warning: GEMINI_API_KEY environment variable not set');
+    console.warn('  Warning: GEMINI_API_KEY environment variable not set');
   }
 });
 

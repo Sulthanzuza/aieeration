@@ -2,8 +2,8 @@ const cors = require('cors');
 
 const corsOptions = {
   origin: process.env.NODE_ENV === 'production' 
-    ? ['http://localhost:5173', 'http://localhost:4173'] // Add your production domains here
-    : ['http://localhost:5173', 'http://localhost:3000'],
+    ? ['https://aieeration.vercel.app', 'https://aieeration.vercel.app'] 
+    : ['https://aieeration.vercel.app', 'https://aieeration.vercel.app/'],
   credentials: true,
   optionsSuccessStatus: 200,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
